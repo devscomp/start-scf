@@ -1,11 +1,13 @@
-# 腾讯云函数计算 Node.JS 12.16 HTTP 案例
+# 腾讯云 SCF 案例
 
-只需几步就可以快速在腾讯云函数计算服务上体验 Node.JS 12.16 HTTP ：
+通过该应用，您可以简单快速的创建一个腾讯云SCF案例。
 
-- 初始化项目：`s init node.js12.16-http -p alibaba`
-- 进入项目：`cd node.js12.16-http`
-- 构建项目：`s build docker`
-- 部署项目：`s deploy`
-- 触发项目：`s invoke remote`
+- 下载命令行工具：`npm install -g @serverless-devs/s`
+- 初始化一个模版项目：`s init devscomp/start-scf`
+- 进入项目后部署项目：`s deploy`
 
-即可实现`Node.JS 12.16 HTTP`案例的初始化、部署整个流程。
+-----
+
+> - Serverless Devs 项目：https://www.github.com/serverless-devs/serverless-devs   
+> - Serverless Devs 文档：https://www.github.com/serverless-devs/docs   
+> - Serverless Devs 钉钉交流群：33947367    
