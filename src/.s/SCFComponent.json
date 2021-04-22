@@ -1,0 +1,101 @@
+{
+  "lastVersion": "$LATEST",
+  "traffic": 1,
+  "apigw": {
+    "serverless": "service-6mnz6cfa"
+  },
+  "region": "ap-guangzhou",
+  "function": {
+    "Qualifier": "$LATEST",
+    "Description": "This is a function in undefined application",
+    "Timeout": 3,
+    "InitTimeout": 3,
+    "MemorySize": 128,
+    "Runtime": "Nodejs10.15",
+    "VpcConfig": {
+      "VpcId": "",
+      "SubnetId": ""
+    },
+    "Environment": {
+      "Variables": []
+    },
+    "Handler": "index.main_handler",
+    "UseGpu": "FALSE",
+    "Role": "",
+    "CodeSize": 0,
+    "FunctionVersion": "$LATEST",
+    "FunctionName": "ServerlessDevsFunction",
+    "Namespace": "default",
+    "InstallDependency": "FALSE",
+    "Status": "Active",
+    "AvailableStatus": "Available",
+    "StatusDesc": "",
+    "FunctionId": "lam-natzt7ya",
+    "L5Enable": "FALSE",
+    "EipConfig": {
+      "EipFixed": "FALSE",
+      "Eips": []
+    },
+    "ModTime": "2021-04-16 11:35:08",
+    "AddTime": "2021-04-16 11:01:57",
+    "Layers": [],
+    "DeadLetterConfig": {
+      "Type": "",
+      "Name": "",
+      "FilterType": ""
+    },
+    "OnsEnable": "FALSE",
+    "PublicNetConfig": {
+      "PublicNetStatus": "ENABLE",
+      "EipConfig": {
+        "EipStatus": "DISABLE",
+        "EipAddress": []
+      }
+    },
+    "Triggers": [
+      {
+        "NeedCreate": true,
+        "created": true,
+        "serviceId": "service-6mnz6cfa",
+        "serviceName": "serverless",
+        "subDomain": "service-6mnz6cfa-1304229895.gz.apigw.tencentcs.com",
+        "protocols": "http&https",
+        "environment": "release",
+        "apiList": [
+          {
+            "path": "/",
+            "method": "GET",
+            "apiName": "index",
+            "created": true,
+            "authType": "NONE",
+            "businessType": "NORMAL",
+            "isBase64Encoded": false,
+            "apiId": "api-r7y5l1ja",
+            "internalDomain": ""
+          }
+        ]
+      }
+    ],
+    "ClsLogsetId": "",
+    "ClsTopicId": "",
+    "CodeInfo": "",
+    "CodeResult": "success",
+    "CodeError": "",
+    "ErrNo": 0,
+    "Tags": [],
+    "AccessInfo": {
+      "Host": "",
+      "Vip": ""
+    },
+    "Type": "Event",
+    "CfsConfig": {
+      "CfsInsList": []
+    },
+    "StatusReasons": [],
+    "AsyncRunEnable": "FALSE",
+    "TraceEnable": "FALSE",
+    "LogType": "stream",
+    "RequestId": "e86fb7bc-fa09-4eb9-a1c3-8e5ea1a78046"
+  },
+  "lambdaArn": "ServerlessDevsFunction"
+}
